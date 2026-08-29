@@ -340,8 +340,11 @@
     /* ---------- CERTIFICATIONS ---------- */
     .cert-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
     .cert-card{
-      background: var(--panel); border:1px solid var(--border); border-radius:10px;
-      padding: 24px; position:relative;
+      background: var(--panel); 
+      border:1px solid var(--border); 
+      border-radius:10px;
+      padding: 24px; 
+      position:relative;
     }
     .cert-badge{
       display:flex; align-items:center; gap:10px; margin-bottom:16px;
@@ -362,9 +365,13 @@
     .cert-meta a{ color: var(--blue); border-bottom: 1px solid transparent; }
     .cert-meta a:hover{ border-color: var(--blue); }
     .cert-expiry{
-      position:absolute; top:20px; right:20px;
-      font-family: var(--font-mono); font-size:10px; color: var(--amber);
-      border:1px solid rgba(242,184,75,0.35); background: rgba(242,184,75,0.08);
+      /*position:absolute; */
+      top:20px; 
+      right:20px;
+      font-family: var(--font-mono); 
+      font-size:10px; color: var(--amber);
+      border:1px solid rgba(242,184,75,0.35); 
+      background: rgba(242,184,75,0.08);
       padding:3px 8px; border-radius: 4px;
     }
     @media (max-width: 640px){ .cert-grid{ grid-template-columns: 1fr; } .cert-expiry{ position:static; display:inline-block; margin-top:12px; } }
